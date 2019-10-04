@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\bin\Debug\WinFormSysAdmin.exe.config
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\bin\Debug\WinFormSysAdmin.exe
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\bin\Debug\WinFormSysAdmin.pdb
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.Form1.resources
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.Properties.Resources.resources
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.exe
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.pdb
+C:\Users\USER\source\repos\WinFormSysAdmin\WinFormSysAdmin\obj\Debug\WinFormSysAdmin.dashboard.resources
