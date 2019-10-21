@@ -33,6 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,25 +48,103 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dashboard.cs">
+    <Compile Include="Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dashboard.Designer.cs">
-      <DependentUpon>dashboard.cs</DependentUpon>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="CheckIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckIn.Designer.cs">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckOut.Designer.cs">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontOffice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrontOffice.Designer.cs">
+      <DependentUpon>FrontOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseKeeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseKeeper.Designer.cs">
+      <DependentUpon>HouseKeeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MasterItem.Designer.cs">
+      <DependentUpon>MasterItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterRoomType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MasterRoomType.Designer.cs">
+      <DependentUpon>MasterRoomType.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="dashboard.resx">
-      <DependentUpon>dashboard.cs</DependentUpon>
+    <Compile Include="RequestItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RequestItem.Designer.cs">
+      <DependentUpon>RequestItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomMaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RoomMaster.Designer.cs">
+      <DependentUpon>RoomMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperVisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperVisor.Designer.cs">
+      <DependentUpon>SuperVisor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CheckIn.resx">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut.resx">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontOffice.resx">
+      <DependentUpon>FrontOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseKeeper.resx">
+      <DependentUpon>HouseKeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterItem.resx">
+      <DependentUpon>MasterItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterRoomType.resx">
+      <DependentUpon>MasterRoomType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +155,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RequestItem.resx">
+      <DependentUpon>RequestItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomMaster.resx">
+      <DependentUpon>RoomMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperVisor.resx">
+      <DependentUpon>SuperVisor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
